@@ -59,17 +59,7 @@ ankita_task-34/
 | POST | `/posts` | Create a post linked to a user |
 | GET | `/posts` | Retrieve posts with populated user details |
 
-## Environment Variables
 
-Create a `.env` file inside the backend folder:
-
-```env
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-CLIENT_ORIGIN=http://localhost:5173
-```
-
-Replace the MongoDB URI placeholder with your actual connection string.
 
 ## Installation and Setup
 
