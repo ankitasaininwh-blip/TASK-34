@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = "http://localhost:5000";
+const API = "https://task-34-luq9.onrender.com";
 
 function App() {
   const [users, setUsers] = useState([]);
